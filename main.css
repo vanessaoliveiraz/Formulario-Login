@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-size: cover;
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    
+    
+    
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    border-radius: 1px;
+   
+}
+
+.textbox input {
+    border: none;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn {
+    width: 100%;
+    background-color: white;
+    border: 2px solid;
+    margin: 12px 0px;
+    padding: 12px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.btn:hover {
+    background-color: red;
+
+}
+
+.btn:active {
+    background-color: white;
+   
+}
+
+.a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
